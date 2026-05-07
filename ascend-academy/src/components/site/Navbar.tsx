@@ -42,7 +42,9 @@ export function Navbar() {
             </div>
             <div className="leading-tight">
               <div className="font-display text-sm font-bold tracking-tight">Career Training</div>
-              <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">Institute Pvt. Ltd.</div>
+              <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
+                Institute Pvt. Ltd.
+              </div>
             </div>
           </a>
 
@@ -94,7 +96,11 @@ export function Navbar() {
           >
             <div className="flex items-center justify-between p-5">
               <span className="font-display font-bold">Menu</span>
-              <button onClick={() => setOpen(false)} aria-label="Close" className="rounded-xl p-2 hover:bg-white/5">
+              <button
+                onClick={() => setOpen(false)}
+                aria-label="Close"
+                className="rounded-xl p-2 hover:bg-white/5"
+              >
                 <X className="h-5 w-5" />
               </button>
             </div>
@@ -113,8 +119,15 @@ export function Navbar() {
                 </motion.a>
               ))}
               <div className="mt-8 flex gap-3">
-                <a href="tel:9857079552" className="flex-1 rounded-xl glass px-4 py-3 text-center">Call Now</a>
-                <a href="https://wa.me/9779807505386" className="flex-1 rounded-xl bg-gradient-brand px-4 py-3 text-center text-white">WhatsApp</a>
+                <a href="tel:9857079552" className="flex-1 rounded-xl glass px-4 py-3 text-center">
+                  Call Now
+                </a>
+                <a
+                  href="https://wa.me/9779807505386"
+                  className="flex-1 rounded-xl bg-gradient-brand px-4 py-3 text-center text-white"
+                >
+                  WhatsApp
+                </a>
               </div>
             </nav>
           </motion.div>

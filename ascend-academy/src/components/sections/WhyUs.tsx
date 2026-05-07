@@ -1,12 +1,31 @@
 import { motion } from "framer-motion";
-import { Hand, Users, Building2, Briefcase, Receipt, GraduationCap, Award, HeartHandshake } from "lucide-react";
+import {
+  Hand,
+  Users,
+  Building2,
+  Briefcase,
+  Receipt,
+  GraduationCap,
+  Award,
+  HeartHandshake,
+} from "lucide-react";
 
 const items = [
-  { icon: Hand, title: "100% Practical Learning", desc: "Every concept reinforced with real entries.", span: "lg:col-span-2 lg:row-span-2" },
+  {
+    icon: Hand,
+    title: "100% Practical Learning",
+    desc: "Every concept reinforced with real entries.",
+    span: "lg:col-span-2 lg:row-span-2",
+  },
   { icon: Users, title: "Industry Trainers", desc: "Working professionals as mentors." },
   { icon: Building2, title: "Real Office Setup", desc: "Trained in an actual office workflow." },
   { icon: Briefcase, title: "Job-Oriented", desc: "Built around what employers ask for." },
-  { icon: Receipt, title: "VAT & TDS Practice", desc: "Live IRD portal exercises.", span: "lg:col-span-2" },
+  {
+    icon: Receipt,
+    title: "VAT & TDS Practice",
+    desc: "Live IRD portal exercises.",
+    span: "lg:col-span-2",
+  },
   { icon: GraduationCap, title: "Internship Guidance", desc: "Placement-ready support." },
   { icon: Award, title: "Certification", desc: "Recognized completion certificate." },
   { icon: HeartHandshake, title: "Career Support", desc: "Resume, interview & placement help." },
@@ -17,8 +36,12 @@ export function WhyUs() {
     <section id="why" className="relative py-24">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <span className="inline-flex items-center rounded-full glass px-3 py-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">Why Choose Us</span>
-          <h2 className="mt-5 font-display text-4xl sm:text-5xl font-bold">Built like a <span className="text-gradient-brand">real workplace</span></h2>
+          <span className="inline-flex items-center rounded-full glass px-3 py-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+            Why Choose Us
+          </span>
+          <h2 className="mt-5 font-display text-4xl sm:text-5xl font-bold">
+            Built like a <span className="text-gradient-brand">real workplace</span>
+          </h2>
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 auto-rows-[160px] gap-4">

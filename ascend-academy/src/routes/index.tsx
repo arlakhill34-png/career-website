@@ -18,9 +18,19 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Career Training Institute — Practical Accounting & Taxation" },
-      { name: "description", content: "Job-oriented practical training in Accounting, VAT, TDS, Tally ERP and Taxation. Tilottama, Manigram. Building Skills, Shaping Careers." },
-      { property: "og:title", content: "Career Training Institute — Practical Accounting & Taxation" },
-      { property: "og:description", content: "Job-oriented practical training in Accounting, VAT, TDS, Tally ERP and Taxation." },
+      {
+        name: "description",
+        content:
+          "Job-oriented practical training in Accounting, VAT, TDS, Tally ERP and Taxation. Tilottama, Manigram. Building Skills, Shaping Careers.",
+      },
+      {
+        property: "og:title",
+        content: "Career Training Institute — Practical Accounting & Taxation",
+      },
+      {
+        property: "og:description",
+        content: "Job-oriented practical training in Accounting, VAT, TDS, Tally ERP and Taxation.",
+      },
     ],
   }),
   component: Index,

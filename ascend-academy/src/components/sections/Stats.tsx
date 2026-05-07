@@ -23,14 +23,24 @@ export function Stats() {
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className="flex items-center gap-4"
             >
-              <div className={`grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-white/5 ${s.color}`}>
+              <div
+                className={`grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-white/5 ${s.color}`}
+              >
                 <s.icon className="h-6 w-6" />
               </div>
               <div>
                 <div className="font-display text-3xl font-bold">
-                  <CountUp end={s.end} duration={2.4} enableScrollSpy scrollSpyOnce suffix={s.suffix} />
+                  <CountUp
+                    end={s.end}
+                    duration={2.4}
+                    enableScrollSpy
+                    scrollSpyOnce
+                    suffix={s.suffix}
+                  />
                 </div>
-                <div className="text-xs uppercase tracking-wider text-muted-foreground mt-0.5">{s.label}</div>
+                <div className="text-xs uppercase tracking-wider text-muted-foreground mt-0.5">
+                  {s.label}
+                </div>
               </div>
             </motion.div>
           ))}

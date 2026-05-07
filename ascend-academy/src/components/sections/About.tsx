@@ -47,13 +47,23 @@ export function About() {
         </div>
 
         <div>
-          <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <span className="inline-flex items-center rounded-full glass px-3 py-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">About Institute</span>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <span className="inline-flex items-center rounded-full glass px-3 py-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+              About Institute
+            </span>
             <h2 className="mt-5 font-display text-4xl sm:text-5xl font-bold leading-tight">
-              Building <span className="text-gradient-brand">skills</span>, shaping <span className="text-gradient-brand">careers</span>.
+              Building <span className="text-gradient-brand">skills</span>, shaping{" "}
+              <span className="text-gradient-brand">careers</span>.
             </h2>
             <p className="mt-5 text-muted-foreground leading-relaxed">
-              Career Training Institute Pvt. Ltd. provides practical-based accounting and taxation training focused on real-world job skills. Students learn accounting, VAT, TDS, taxation, Tally ERP, banking, auditing, compliance, and financial operations through practical hands-on training.
+              Career Training Institute Pvt. Ltd. provides practical-based accounting and taxation
+              training focused on real-world job skills. Students learn accounting, VAT, TDS,
+              taxation, Tally ERP, banking, auditing, compliance, and financial operations through
+              practical hands-on training.
             </p>
             <ul className="mt-7 grid sm:grid-cols-2 gap-3">
               {points.map((p) => (
